@@ -1,0 +1,37 @@
+To modify the database.csv file, use the one provided as template.
+
+You can modify it using Excel, as long as you use the semicolon (;)
+as the separator between cells.
+
+Layout:
++---------------------+---------------------+---------------------+
+|                     |			    |			  |
+|	 Alias	      |     Season Name	    |  Index of episodes  |
+|		      |			    |			  |
++---------------------+---------------------+---------------------+
+|		      |		            |			  |
+|		      |			    |			  |
+|		      |			    |			  |
++---------------------+---------------------+---------------------+	
+|                     |                     |                     |
+|                     |                     |                     |
+|                     |                     |                     |
++---------------------+---------------------+---------------------+     
+|                     |                     |                     |
+|                     |                     |                     |
+|                     |                     |                     |
++---------------------+---------------------+---------------------+     
+
+As far as I can tell, there is no limit on how many seasons you can
+have in the database, limit probably is in Discord caharacter limit
+or Python's arrays.
+
+The different parameters are:
+  -Alias: a short name for the season. This is the one that is
+  specified when calling the /randomfromseason <arg> command
+  
+  -Season name: the full name for the season. This is the full
+  name of the season, which is just for reference.
+  
+  -Index of episodes: location of a txt file with a list of the
+  episodes in the season.

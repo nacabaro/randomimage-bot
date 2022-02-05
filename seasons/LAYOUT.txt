@@ -1,0 +1,14 @@
+To create a list with the episodes, you can use the following command:
+  find <route_to_path> | grep <file_extension> > <alias_of episodes>.txt
+
+Being:
+  -<route_to_path>: The route where the video files for the season
+  are located.
+
+  -<file_extension>: The file extension of the episodes in mind.
+  this part is used to avoid getting files that are not the episodes
+  (such as other files with different extensions, etc.)
+
+  -<alias_of_episodes>: The name of the file which has the index of
+  the episodes. This part is the one referenced by the database as to
+  read from.

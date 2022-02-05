@@ -1,0 +1,11 @@
+[Unit]
+Description=RandomImage Discord Bot
+
+[Service]
+User=<user as which the bot runs as>
+WorkingDirectory=<route where start.py is located>
+ExecStart=/usr/bin/python3 start.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
