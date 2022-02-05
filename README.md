@@ -2,7 +2,7 @@
 A Discord bot that will screenshot video frames at random timestamps of videos provided to it and will send to your Discord server. 
 
 # Requirements
-So far this bot has been tested on Linux, requires ffmpeg and discord.py to work.
+So far this bot has been tested on Linux, as the bot needs access to write to the /tmp folder and assumes you have ffmpeg installed onto your path, requires ffmpeg and discord.py to work. 
 
 # How it works
 This bot, when invoked, will generate a random timestamp, pass that timestamp to ffmpeg, which screenshots the frame on that timestamp, then sends it to the discord channel it was invoked on.
